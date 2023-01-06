@@ -1,0 +1,96 @@
+/* Global */
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Banner  */
+
+.banner {
+    background-image: url(../images/banner/banner2.png);
+    background-attachment:local;
+    background-size: cover;
+    padding: 200px 100px;
+}
+
+.banner-wrapper {
+    width: 100%;
+    text-align: right;
+
+}
+
+.banner-title {
+    font-size: 65px;
+    padding-left: 700px;
+    margin-bottom: 25px;
+}
+
+.banner-section-description {
+    font-size: 16px;
+    padding-left: 700px;
+    margin-bottom: 25px;
+    color: rgb(97, 96, 96);
+}
+
+.btn-primary{
+    height: 65px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(1, 125, 86);
+    border: 0;
+    border-radius: 5px;
+}
+
+/* main  */
+main {
+    align-items: center;
+}
+/* Failure */
+.main-section-wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 130px;
+    gap: 30px;
+
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 25px;
+}
+
+.section-description{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: rgb(97, 96, 96);
+}
+
+ul{
+    list-style: none;
+    padding-left: 10px;
+   
+
+}
+li{
+    margin: 10px 0;
+    color: rgb(97, 96, 96);
+    font-size: 16px;
+}
+ul li::before{
+content: "\25AA"; color: rgb(31, 173, 31);
+display: inline-block; width: -15px;
+}
+
+.section-picture{
+    background: rgb(73, 118, 143);
+    border-radius: 45%
+}
+
+/* Opportunities */
+
+/* Plans */
+/* Gradiant */
+/* Footer */
