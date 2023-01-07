@@ -83,13 +83,6 @@ li {
     font-size: 16px;
 }
 
-ul li::before {
-    content: "\25AA";
-    color: rgb(31, 173, 31);
-    display: inline-block;
-    width: 15px;
-    margin: 0 10px;
-}
 
 .section-picture {
     background: rgb(73, 118, 143);
@@ -143,7 +136,7 @@ ul li::before {
 
 .gradient {
     display: block;
-    margin: 30px auto 30px;
+    margin: 30px auto 150px;
     width: 70%;
     background-image: url(../images/watch.png), url(../images/gradient2.png);
     background-blend-mode: soft-light;
