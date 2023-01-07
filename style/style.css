@@ -130,7 +130,8 @@ ul li::before {
     font-size: 18px;
     font-weight: 700;
     color: rgb(230, 87, 22);
-    background-color: white; border: 0;
+    background-color: white;
+    border: 0;
     border-radius: 5px;
 }
 
@@ -144,7 +145,7 @@ ul li::before {
     margin: 30px auto 30px;
     width: 70%;
     background-image: url(../images/watch.png), url(../images/gradient2.png);
-    background-blend-mode:soft-light;
+    background-blend-mode: soft-light;
     padding: 60px;
     border: none;
     border-radius: 10px;
@@ -152,4 +153,3 @@ ul li::before {
 }
 
 /* Footer */
-
