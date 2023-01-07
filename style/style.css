@@ -87,24 +87,25 @@ ul li::before {
     content: "\25AA";
     color: rgb(31, 173, 31);
     display: inline-block;
-    width: -15px;
+    width: 15px;
+    margin: 0 10px;
 }
 
 .section-picture {
     background: rgb(73, 118, 143);
-    border-radius: 45%
+    border-radius: 45%;
 }
 
 /* Plans */
 .my-plans-header {
     text-align: center;
-    margin: 100px 0;
+
 }
 
 .plans-wrapper {
     display: flex;
     justify-content: space-around;
-    margin: 100px 0;
+    margin: 40px 0 130px 0;
     text-align: center;
     padding: 0 150px;
 }
@@ -153,3 +154,42 @@ ul li::before {
 }
 
 /* Footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: black;
+    padding: 100px 200px;
+    align-items: baseline;
+}
+
+.footer-left .section-description {
+    width: 50%;
+}
+
+.footer-left .section-title {
+    color: white;
+}
+
+.footer-image-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+
+input[type=email] {
+    display: inline-block;
+    width: 100%;
+    height: 65px;
+    margin: 20px 0px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.footer-right label {
+    color: white;
+    font-size: 30px;
+    font-weight: 700px;
+}
